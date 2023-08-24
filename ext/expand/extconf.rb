@@ -5,8 +5,8 @@ LIBDIR      = RbConfig::CONFIG['libdir']
 INCLUDEDIR  = RbConfig::CONFIG['includedir']
 
 HEADER_DIRS = [
-  # First search /opt/local for macports
-  '/opt/local/include',
+  # First search /opt/local for homebrew
+  '/opt/homebrew/include',
 
   # Then search /usr/local for people that installed from source
   '/usr/local/include',
@@ -19,8 +19,8 @@ HEADER_DIRS = [
 ]
 
 LIB_DIRS = [
-  # First search /opt/local for macports
-  '/opt/local/lib',
+  # First search /opt/local for homebrew
+  '/opt/homebrew/lib',
 
   # Then search /usr/local for people that installed from source
   '/usr/local/lib',
